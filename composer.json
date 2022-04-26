@@ -1,0 +1,14 @@
+{
+    "require": {
+        "altorouter/altorouter": "2.0.2",
+        "latte/latte": "^2.11",
+        "filp/whoops": "^2.14"
+    },
+    
+    "autoload": {
+        "psr-4": {
+            "Core\\": "src",
+            "Core\\Libs\\": "src/libs/core"
+        }
+    }
+}
